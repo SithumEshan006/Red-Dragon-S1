@@ -20,7 +20,7 @@
   "author": "Xeon",
   "license": "MIT",
   "dependencies": {
-    "@adiwajshing/baileys": "github:prabhasha2006/baileys",
+    "@adiwajshing/baileys": "github:SithumEshan006",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@bochilteam/scraper": "^2.0.0",
     "@shineiichijo/marika": "^2.0.2",

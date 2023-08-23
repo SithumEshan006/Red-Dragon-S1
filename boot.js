@@ -1,23 +1,19 @@
 /*
-
-█   █   █       █    █▅   ▅█    █      █     ██████     █      █    █     █
 █ █     █       █    █  █ █  █    █      █       █        █      █    █     █
-██      █       █    █   █   █    █      █       █        ████████    █     █
-█ █     █       █    █       █    █      █       █        █      █    █     █
-█   █    ▀▅▃▅▀    █        █    ▀▅▃▅▀       █        █      █    ▀▅▃▅▀  
+██      █       █    █   █   █    █      █       █        ████████    █     ██   █    ▀▅▃▅▀    █        █    ▀▅▃▅▀       █        █      █    ▀▅▃▅▀  
 ╦   ╦      ╔══╗      ╦        ╦     ╔══╗         ╦        ╦      ╦      ╔══╗
 
 ╔═══❤️═══🧡═══💛═══🤍═══💚═══💙═══💜═══╗
 ║
 ║
 ║
-╠🆁🅴🅳╬🅳🆁🅰🅶🅾🅽╣ 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 [`𝗞.𝗣𝗿𝗮𝗯𝗵𝗮𝘀𝗵𝗮´]
+╠🆁🅴🅳╬🅳🆁🅰🅶🅾🅽╣ 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝘽𝙮 [`Sithum Eshan ´]
 ║
 ║
 ║
-╠═𝕆𝔹𝔽𝕌𝕊ℂ𝔸𝕋𝔼𝔻═𝔹𝕐═╣ 😎𝙆.𝙋𝙧𝙖𝙗𝙝𝙖𝙨𝙝𝙖❯❯
+╠═𝕆𝔹𝔽𝕌𝕊ℂ𝔸𝕋𝔼𝔻═𝔹𝕐═╣ Mr.Sithum Eshan 
 ║
-╠═══════(github.com/prabhasha2006)═══════╣
+╠═══════(github:SithumEshan006)═══════╣
 ║
 ║    ▒ ▒          ▒ ▒ ▒       ▒ ▒ ▒ ▒ ▒  
 ║    ▒    ▒      ▒     ▒          ▒      
@@ -252,8 +248,8 @@ XeonLft = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeUR
                 let unicorndoc = {key: {fromMe: false,"participant":"0@s.whatsapp.net", "remoteJid": "916909137213-1604595598@g.us"}, "message": {orderMessage: {itemCount: 9999999,status: 200, thumbnail: XeonWlcm, surface: 200, message: `${metadata.subject}`, orderTitle: 'xeon', sellerJid: '0@s.whatsapp.net'}}, contextInfo: {"forwardingScore":999,"isForwarded":true},sendEphemeral: true}
                  xeonbody = `🤭🌹 Hi👋 @${xeonName.split("@")[0]}
 
-🤭🌹 Welcome To  ${metadata.subject}
-🤭🌹 ${xmembers} Members
+🙏🌹 Welcome To  ${metadata.subject}
+👥🌹 ${xmembers} Members
 
 Date  =  ${xdate}
 Time  =  ${xtime} `
@@ -352,8 +348,8 @@ KUMUTHU.sendMessage(anu.id, buttonMessage)
 	KUMUTHU.sendMessage(jid, { contacts: { displayName: `${list.length} Contact`, contacts: list }, ...opts }, { quoted })
     }
     
-    KUMUTHU.setStatus = (status) => {
-        KUMUTHU.query({
+    SITHUM.setStatus = (status) => {
+        SITHUM.query({
             tag: 'iq',
             attrs: {
                 to: '@s.whatsapp.net',
@@ -371,7 +367,7 @@ KUMUTHU.sendMessage(anu.id, buttonMessage)
 	
     KUMUTHU.public = true
 
-    KUMUTHU.serializeM = (m) => smsg(KUMUTHU, m, store)
+    KUMUTHU.serializeM = (m) => smsg(SITHUM U, m, store)
 
     KUMUTHU.ev.on('connection.update', async (update) => {
         const { connection, lastDisconnect } = update	    
@@ -414,7 +410,7 @@ KUMUTHU.sendMessage(anu.id, buttonMessage)
             }
             }
             }), options)
-            KUMUTHU.relayMessage(jid, template.message, { messageId: template.key.id })
+            SITHUM.relayMessage(jid, template.message, { messageId: template.key.id })
     }
 
     /**
@@ -426,7 +422,7 @@ KUMUTHU.sendMessage(anu.id, buttonMessage)
      * @param {*} quoted 
      * @param {*} options 
      */
-    KUMUTHU.sendButtonText = (jid, buttons = [], text, footer, quoted = '', options = {}) => {
+    SITHUM.sendButtonText = (jid, buttons = [], text, footer, quoted = '', options = {}) => {
         let buttonMessage = {
             text,
             footer,
@@ -434,7 +430,7 @@ KUMUTHU.sendMessage(anu.id, buttonMessage)
             headerType: 2,
             ...options
         }
-        KUMUTHU.sendMessage(jid, buttonMessage, { quoted, ...options })
+        SITHUM.sendMessage(jid, buttonMessage, { quoted, ...options })
     }
     
     /**
